@@ -1,0 +1,77 @@
+$icon-font-path: '../fonts/';
+
+$black: #1a1a1a;
+$red: #ed1c24;
+$gray: #f6f6f6;
+
+@media only screen and (max-width: 992px) {
+
+    //SECTION-3
+
+    .section-3 {
+
+        .content {
+            padding: 0 20px;
+        }
+    }
+
+    .input-wrap {
+        flex-direction: column;
+        margin-top:25px;
+    }
+
+    .input {
+        margin-bottom: 10px;
+       // width: calc(50% - 10px);
+       width: 350px;
+        
+
+        &:last-child {
+            margin-bottom: 0;            
+        }
+    }
+
+    .button {
+        width: 350px;
+    }
+
+    .bottom-form-content {
+
+
+        .input-wrap {
+            align-items: center;
+        }
+    }
+
+    .copyright {
+        width: 100%;
+        position: relative;       
+        background: #f4f4f4;
+        justify-content: center;
+
+        &:after {
+            content: "";
+            width: 20px;
+            height: 100%;
+            display: block;
+            background: #f4f4f4;
+
+            position: absolute;
+            top: 0;
+            left: -20px;
+        }
+
+        &:before {
+            content: "";
+            width: 20px;
+            height: 100%;
+            display: block;
+            background: #f4f4f4;
+
+            position: absolute;
+            top: 0;
+            right: -20px;
+        }
+    }
+
+}

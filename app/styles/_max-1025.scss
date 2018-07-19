@@ -1,0 +1,21 @@
+$icon-font-path: '../fonts/';
+
+$black: #1a1a1a;
+$red: #ed1c24;
+$gray: #f6f6f6;
+
+@media only screen and (max-width: 1025px) {	
+
+    .content {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .section-1 {
+
+        .content {
+            padding: 20px;
+        }
+    }
+
+}
